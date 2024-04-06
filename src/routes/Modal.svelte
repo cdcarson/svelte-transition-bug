@@ -12,11 +12,6 @@
       css: (t: number) => {
         let tyPct = 100 - sineInOut(t) * 100;
         console.log(tyPct);
-        // if (tyPct > 99.5) {
-        //   tyPct = 100
-        // } else if (tyPct < .5) {
-        //   tyPct = 0;
-        // }
         return `transform: translateY(${tyPct}%)`;
       }
     };
