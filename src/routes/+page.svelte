@@ -13,7 +13,7 @@
 		<h1 class="text-2xl">Svelte 4.2.12</h1>
 
     <p>
-      Open up dev tools and look at the transition values (i.e. the translate y %) when you open or close the modal. In Svelte 4 
+      Open up dev tools and look at the transition tween values (i.e. the translate y %) when you open or close the modal. In Svelte 4 
       the last value is always correct (0 or 100.) 
     </p>
 
