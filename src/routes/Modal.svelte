@@ -26,7 +26,7 @@
     };
   };
   
-  let containerRect = $state();
+  
   const handleKeydown = (event: KeyboardEvent) => {
     if ('Escape' === event.key) {
       close();
@@ -34,8 +34,7 @@
   };
 </script>
 <svelte:window onkeydown={handleKeydown}/>
-<div bind:contentRect={containerRect}  class="modal" transition:modalSlide|global={{ duration }}>
-<pre>{JSON.stringify(containerRect, null, 1)}</pre>
+<div  class="modal" transition:modalSlide|global={{ duration }}>
 <button type="button" class="underline" onclick={close}>Close</button> (or press <kbd>esc</kbd>)
 </div>
 
