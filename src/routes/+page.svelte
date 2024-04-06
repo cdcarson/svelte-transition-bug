@@ -13,7 +13,7 @@
 		<h1 class="text-2xl">Svelte 5.0.0-next.95</h1>
 
 		<p>
-			Open up dev tools and look at the transition values (i.e. the translate y %) when you open or
+			Open up dev tools and look at the transition tween values (i.e. the translate y %) when you open or
 			close the modal. In Svelte 5, when the duration is less than ~500, the last value is incorrect (greater than 0 or
 			less than 100.) 
 		</p>
